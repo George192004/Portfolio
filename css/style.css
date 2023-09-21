@@ -1,0 +1,322 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #000;
+  font-family: "Red Hat Display", sans-serif;
+  overflow-x: hidden;
+}
+
+/* .logo-img {
+  height: 10.2rem;
+} */
+
+/**************************/
+/* HEADER */
+/**************************/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+
+  /* Because we want header to be sticky later */
+  height: 9.6rem;
+  padding: 0 4.8rem;
+  position: relative;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background-color: #000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+/* MOBILE */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #97c584;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
+/* STICKY NAVIGATION */
+.sticky .header {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 8rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: #000;
+
+  z-index: 999;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+}
+
+.sticky .section-hero {
+  margin-top: 9.6rem;
+}
+
+/**************************/
+/* NAVIGATION */
+/**************************/
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+  text-transform: uppercase;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #97c584;
+}
+
+/**************************/
+/* SECTION HERO */
+/**************************/
+
+.section-hero {
+  padding: 4.8rem 3.2rem 9.6rem 3.2rem;
+}
+
+.heading-primary {
+  font-size: 82px;
+  color: #f9fdfe;
+}
+.heading-secondary {
+  color: #f9fdfe;
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  margin-bottom: 4.8rem;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  border-radius: 2px;
+
+  /* Only necessary for .btn */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+
+  /* Put transition on original "state" */
+  /* transition: background-color 0.3s; */
+  transition: all 0.3s;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: #97c584;
+  color: #000;
+  margin-top: 4rem;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: transparent;
+  color: #97c584;
+  box-shadow: inset 0 0 0 2px #97c584;
+}
+
+.text-primary {
+  margin: 5rem 0rem 0rem;
+
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 100;
+}
+
+.logo:link,
+.logo:visited {
+  display: block;
+  font-size: 3.8rem;
+  color: #97c584;
+  text-decoration: none;
+  transition: all 0.3s;
+  letter-spacing: 0.5rem;
+}
+
+.logo:hover,
+.logo:active {
+  color: white;
+}
+
+.logo-mobile:link,
+.logo-mobile:visited {
+  display: block;
+  font-size: 3.8rem;
+  color: #97c584;
+  text-decoration: none;
+  transition: all 0.3s;
+  letter-spacing: 0.5rem;
+}
+
+.logo-mobile:hover,
+.logo-mobile:active {
+  color: white;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.section-projets {
+  padding: 4.8rem 3.2rem 9.6rem 3.2rem;
+}
+
+.project-img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-btn:link,
+.project-btn:visited {
+  display: inline-block;
+  color: #97c584;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.3s;
+}
+
+.project-btn:hover,
+.project-btn:active {
+  color: #4c6342;
+}
+
+.text-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+.project-heading-text {
+  color: #97c584;
+  font-size: 2.2rem;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+/**************************/
+/* FOOTER */
+/**************************/
+
+.footer {
+  padding: 3.2rem 0;
+  border-top: 1px solid #eee;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+.footer-heading {
+  color: #fff;
+  font-size: 1.8rem;
+}
+.social-icon {
+  height: 3.2rem;
+  width: 3.2rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #fff;
+  transition: all 0.3s;
+  font-style: normal;
+  margin-top: 1rem;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #97c584;
+}
+
+/************/
+
+.section-skills {
+  padding: 12.8rem 3.2rem 9.6rem 3.2rem;
+}
+
+.grid--5-cols {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 1.5rem;
+}
+
+.skill-item {
+  color: red;
+}
+
+.skill-img {
+  width: 100%;
+  cursor: pointer;
+}
