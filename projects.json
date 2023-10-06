@@ -1,0 +1,44 @@
+[
+  {
+    "imageSrc": "/img/omnifood.png",
+    "title": "Omnifood",
+    "liveLink": "https://omnifood-georgekajaia.netlify.app/",
+    "sourceLink": "https://github.com/George192004/omnifoood_gk"
+  },
+  {
+    "imageSrc": "/img/pig-game.png",
+    "title": "Pig game",
+    "liveLink": "https://pig-game-giorgi.netlify.app/",
+    "sourceLink": "https://github.com/George192004/pig-game.git"
+  },
+  {
+    "imageSrc": "/img/tourism.png",
+    "title": "Tourism",
+    "liveLink": "https://george192004.github.io/Tourism-Landing-Page/",
+    "sourceLink": "https://github.com/George192004/Tourism-Landing-Page"
+  },
+  {
+    "imageSrc": "/img/guess-game.png",
+    "title": "Guess Game",
+    "liveLink": "https://guess-game-giorgi.netlify.app/",
+    "sourceLink": "https://github.com/George192004/guess-game"
+  },
+  {
+    "imageSrc": "/img/bankistApp.png",
+    "title": "Bankist App",
+    "liveLink": "https://gk-bankistapp.netlify.app/",
+    "sourceLink": "https://github.com/George192004/BankistApp"
+  },
+  {
+    "imageSrc": "/img/bankistPage.png",
+    "title": "Bankist Page",
+    "liveLink": "https://bankistpage-george.netlify.app/",
+    "sourceLink": "https://github.com/George192004/Bankist_Landing_Page"
+  },
+  {
+    "imageSrc": "/img/advice-app.png",
+    "title": "Advice App",
+    "liveLink": "https://advice-app-george.netlify.app/",
+    "sourceLink": "https://github.com/George192004/AdviceApp"
+  }
+]

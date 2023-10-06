@@ -100,3 +100,45 @@ handleResize();
 
 // Listen for the "resize" event and update the link text accordingly
 window.addEventListener("resize", handleResize);
+
+////////////////////////////////
+////////////////////////////////
+////////////////////////////////
+
+// პროქტების წამოღება JSON ფაილიდან
+async function populateCards() {
+  try {
+    // Fetch the JSON data from "projects.json"
+    const response = await fetch("projects.json");
+    const cardData = await response.json();
+
+    // Get the card container
+    const container = document.querySelector(".container.grid");
+
+    // Loop through the card data and create card elements
+    cardData.forEach((card) => {
+      const cardHTML = createCardElement(card);
+      container.innerHTML += cardHTML;
+    });
+  } catch (error) {
+    console.error("Error fetching and populating cards:", error);
+  }
+}
+
+// Function to create a single card element based on the data
+function createCardElement(card) {
+  return `
+    <div class="card">
+      <img src="${card.imageSrc}" alt="${card.title}" class="project-img" />
+      <div class="project-heading">
+        <h3 class="project-heading-text">${card.title}</h3>
+      </div>
+      <div class="text-box">
+        <a href="${card.liveLink}" class="project-btn" target="_blank">Live</a>
+        <a href="${card.sourceLink}" class="project-btn" target="_blank">Source</a>
+      </div>
+    </div>
+  `;
+}
+
+populateCards();
