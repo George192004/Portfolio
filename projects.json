@@ -40,5 +40,11 @@
     "title": "Advice App",
     "liveLink": "https://advice-app-george.netlify.app/",
     "sourceLink": "https://github.com/George192004/AdviceApp"
+  },
+  {
+    "imageSrc": "/img/mapty_app.png",
+    "title": "Mapty App",
+    "liveLink": "https://mapty-app-george.netlify.app/",
+    "sourceLink": "https://github.com/George192004/Mapty_App.git"
   }
 ]
