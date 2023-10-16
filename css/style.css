@@ -311,13 +311,24 @@ body {
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 1.5rem;
+  grid-row-gap: 3.2rem;
 }
 
 .skill-item {
   color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .skill-img {
   width: 100%;
   cursor: pointer;
+}
+
+.skill-title {
+  color: #97c584;
+  text-align: center;
+  margin-top: 1.8rem;
+  font-size: 1.8rem;
 }
