@@ -3,54 +3,70 @@
     "imageSrc": "/img/omnifood.png",
     "title": "Omnifood",
     "liveLink": "https://omnifood-georgekajaia.netlify.app/",
-    "sourceLink": "https://github.com/George192004/omnifoood_gk"
+    "sourceLink": "https://github.com/George192004/omnifoood_gk",
+    "languages": ["html", "css"]
   },
   {
     "imageSrc": "/img/pig-game.jpg",
     "title": "Pig game",
     "liveLink": "https://pig-game-giorgi.netlify.app/",
-    "sourceLink": "https://github.com/George192004/pig-game.git"
+    "sourceLink": "https://github.com/George192004/pig-game.git",
+    "languages": ["html", "css", "js"]
   },
   {
     "imageSrc": "/img/tourism.jpg",
     "title": "Tourism",
     "liveLink": "https://george192004.github.io/Tourism-Landing-Page/",
-    "sourceLink": "https://github.com/George192004/Tourism-Landing-Page"
+    "sourceLink": "https://github.com/George192004/Tourism-Landing-Page",
+    "languages": ["html", "css"]
   },
   {
     "imageSrc": "/img/guess-game.jpg",
     "title": "Guess Game",
     "liveLink": "https://guess-game-giorgi.netlify.app/",
-    "sourceLink": "https://github.com/George192004/guess-game"
+    "sourceLink": "https://github.com/George192004/guess-game",
+    "languages": ["html", "css", "js"]
   },
   {
     "imageSrc": "/img/bankistApp.jpg",
     "title": "Bankist App",
     "liveLink": "https://gk-bankistapp.netlify.app/",
-    "sourceLink": "https://github.com/George192004/BankistApp"
+    "sourceLink": "https://github.com/George192004/BankistApp",
+    "languages": ["html", "css", "js"]
   },
   {
     "imageSrc": "/img/bankistPage.png",
     "title": "Bankist Page",
     "liveLink": "https://bankistpage-george.netlify.app/",
-    "sourceLink": "https://github.com/George192004/Bankist_Landing_Page"
+    "sourceLink": "https://github.com/George192004/Bankist_Landing_Page",
+    "languages": ["html", "css", "js"]
   },
   {
     "imageSrc": "/img/advice-app.png",
     "title": "Advice App",
     "liveLink": "https://advice-app-george.netlify.app/",
-    "sourceLink": "https://github.com/George192004/AdviceApp"
+    "sourceLink": "https://github.com/George192004/AdviceApp",
+    "languages": ["html", "css", "js", "api"]
   },
   {
     "imageSrc": "/img/mapty_app.jpg",
     "title": "Mapty App",
     "liveLink": "https://mapty-app-george.netlify.app/",
-    "sourceLink": "https://github.com/George192004/Mapty_App.git"
+    "sourceLink": "https://github.com/George192004/Mapty_App.git",
+    "languages": ["html", "css", "js", "api"]
   },
   {
     "imageSrc": "/img/timer.jpg",
     "title": "Countdown Timer",
     "liveLink": "https://countdown-timer-george.netlify.app/",
-    "sourceLink": "https://github.com/George192004/countdown_timer.git"
+    "sourceLink": "https://github.com/George192004/countdown_timer.git",
+    "languages": ["html", "css", "js"]
+  },
+  {
+    "imageSrc": "/img/forkify_app.jpg",
+    "title": "Forkify App",
+    "liveLink": "https://forkify-giorgikajaia.netlify.app/",
+    "sourceLink": "https://github.com/George192004/forkify_app.git",
+    "languages": ["html", "css", "js", "api"]
   }
 ]

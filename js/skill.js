@@ -74,7 +74,7 @@ allLinks.forEach(function (link) {
 
 // ლოგოს შეცვლა რესფონსივზე
 
-const linkElement = document.querySelector(".logo");
+const linkElement = document.querySelector(".logo-mobile");
 
 function changeLinkText() {
   if (linkElement) {

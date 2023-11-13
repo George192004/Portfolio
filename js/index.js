@@ -118,6 +118,7 @@ async function populateCards() {
     // Loop through the card data and create card elements
     cardData.forEach((card) => {
       const cardHTML = createCardElement(card);
+      console.log(card.languages);
       container.innerHTML += cardHTML;
     });
   } catch (error) {
@@ -130,12 +131,19 @@ function createCardElement(card) {
   return `
     <div class="card">
       <img src="${card.imageSrc}" alt="${card.title}" class="project-img" />
+      <div class="middle">
+      ${card.languages
+        .map((lang) => `<div class="text">${lang}</div>`)
+        .join("")}
+      </div>
       <div class="project-heading">
         <h3 class="project-heading-text">${card.title}</h3>
       </div>
       <div class="text-box">
         <a href="${card.liveLink}" class="project-btn" target="_blank">Live</a>
-        <a href="${card.sourceLink}" class="project-btn" target="_blank">Source</a>
+        <a href="${
+          card.sourceLink
+        }" class="project-btn" target="_blank">Source</a>
       </div>
     </div>
   `;
