@@ -68,5 +68,12 @@
     "liveLink": "https://forkify-giorgikajaia.netlify.app/",
     "sourceLink": "https://github.com/George192004/forkify_app.git",
     "languages": ["html", "css", "js", "api"]
+  },
+  {
+    "imageSrc": "/img/pizza.jpg",
+    "title": "Fast React Pizza",
+    "liveLink": "https://fast-react-pizza-george.netlify.app/",
+    "sourceLink": "https://github.com/George192004/fast-react-pizza.git",
+    "languages": ["react"]
   }
 ]
