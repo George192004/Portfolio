@@ -75,5 +75,12 @@
     "liveLink": "https://fast-react-pizza-george.netlify.app/",
     "sourceLink": "https://github.com/George192004/fast-react-pizza.git",
     "languages": ["react"]
+  },
+  {
+    "imageSrc": "/img/travel-list.png",
+    "title": "Travel List App",
+    "liveLink": "https://travel-list-george.netlify.app/",
+    "sourceLink": "https://github.com/George192004/travel_list.git",
+    "languages": ["react"]
   }
 ]
