@@ -74,13 +74,27 @@
     "title": "Fast React Pizza",
     "liveLink": "https://fast-react-pizza-george.netlify.app/",
     "sourceLink": "https://github.com/George192004/fast-react-pizza.git",
-    "languages": ["react"]
+    "languages": ["react 🔯"]
   },
   {
     "imageSrc": "/img/travel-list.png",
     "title": "Travel List App",
     "liveLink": "https://travel-list-george.netlify.app/",
     "sourceLink": "https://github.com/George192004/travel_list.git",
-    "languages": ["react"]
+    "languages": ["react 🔯"]
+  },
+  {
+    "imageSrc": "/img/tip-calculator.jpg",
+    "title": "Tip Calculator",
+    "liveLink": "https://tip-calculator-george.netlify.app/",
+    "sourceLink": "https://github.com/George192004/tip-calculator.git",
+    "languages": ["react 🔯"]
+  },
+  {
+    "imageSrc": "/img/eat-n-split.jpg",
+    "title": "Eat-n-split App",
+    "liveLink": "https://eat-n-split-george.netlify.app/",
+    "sourceLink": "https://github.com/George192004/eat-n-split.git",
+    "languages": ["react 🔯"]
   }
 ]
