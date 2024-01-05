@@ -96,5 +96,12 @@
     "liveLink": "https://eat-n-split-george.netlify.app/",
     "sourceLink": "https://github.com/George192004/eat-n-split.git",
     "languages": ["react 🔯"]
+  },
+  {
+    "imageSrc": "/img/usepopcorn.jpg",
+    "title": "UsePopcorn",
+    "liveLink": "https://usepopcorn-george.netlify.app/",
+    "sourceLink": "https://github.com/George192004/usePopcorn.git",
+    "languages": ["react 🔯"]
   }
 ]
