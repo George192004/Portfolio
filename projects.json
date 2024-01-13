@@ -103,5 +103,12 @@
     "liveLink": "https://usepopcorn-george.netlify.app/",
     "sourceLink": "https://github.com/George192004/usePopcorn.git",
     "languages": ["react 🔯"]
+  },
+  {
+    "imageSrc": "/img/classy-weather.jpg",
+    "title": "Classy Weather",
+    "liveLink": "https://classy-weather-george.netlify.app/",
+    "sourceLink": "https://github.com/George192004/classy-weather.git",
+    "languages": ["react 🔯"]
   }
 ]
